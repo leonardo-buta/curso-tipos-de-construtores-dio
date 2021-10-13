@@ -12,6 +12,9 @@ namespace ExemploConstrutores
             Pessoa p1 = new Pessoa();
             p1.Apresentar();
 
+            Aluno a1 = new Aluno("Leonardo", "Buta", "Teste");
+            a1.Apresentar();
+
             // ******** - Exemplo construtor privado e padrão singleton - ********
             Log log = Log.GetInstance();
             log.PropriedadeLog = "Teste instancia";
